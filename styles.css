@@ -247,12 +247,13 @@ header h1 {
     gap: 1.2em;
   }
   .valor img {
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     padding: 7px;
   }
 }
 
+/* MEJORA PARA MOBILE: valores grandes y visibles */
 @media (max-width: 600px) {
   header h1 {
     font-size: 2em;
@@ -268,15 +269,15 @@ header h1 {
   }
   .valores-grid {
     grid-template-columns: 1fr;
-    gap: 1em;
+    gap: 1.5em;
   }
   .valor {
-    padding: 1em 0;
+    padding: 2.1em 0;
   }
   .valor img {
-    width: 60px;
-    height: 60px;
-    padding: 4px;
+    width: 120px;
+    height: 120px;
+    padding: 8px;
   }
 }
 

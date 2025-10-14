@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8fefc;
+  color: #222;
+}
+
+nav {
+  background: #e2faea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6em 2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #218c2c;
+  font-weight: 600;
+  font-size: 1.08em;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #155a1a;
+}
+
+header {
+  text-align: center;
+  padding: 3em 1em 2em 1em;
+  background: #e2faea;
+}
+
+.main-logo {
+  width: 80px;
+  margin-bottom: 0.5em;
+}
+
+.subtitulo {
+  color: #218c2c;
+  margin-top: -0.4em;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+
+.section {
+  max-width: 750px;
+  margin: 2.5em auto;
+  padding: 1.2em 2em;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 12px rgba(0,120,30,0.03);
+}
+
+.section h2 {
+  color: #218c2c;
+  margin-bottom: 0.6em;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.valores {
+  background: #e2faea;
+}
+
+.valores-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 1.8em;
+}
+
+.valor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+}
+
+.valor img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 0.6em;
+}
+
+.valor span {
+  font-weight: 600;
+  color: #155a1a;
+  font-size: 1.12em;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1.3em 0 0.9em 0;
+  font-size: 1em;
+  color: #155a1a;
+  background: #e2faea;
+  margin-top: 2em;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+  }
+  .valores-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section {
+    padding: 1em 0.5em;
+  }
+}

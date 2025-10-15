@@ -152,6 +152,27 @@ header h1 {
   line-height: 1.7em;
 }
 
+/* VIDEO */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0 1em 0;
+  width: 100%;
+}
+
+.video-container video,
+.video-container iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px #e7d6c6bb;
+  max-width: 100%;
+  border: 2px solid var(--marron-claro);
+  background: var(--acento-suave);
+}
+
+/* VALORES */
 .valores {
   background: var(--acento-suave);
   box-shadow: none;

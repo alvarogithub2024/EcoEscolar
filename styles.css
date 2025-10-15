@@ -130,6 +130,7 @@ header h1 {
   box-shadow: var(--sombra-card);
   border: 1.5px solid var(--marron-claro);
   transition: box-shadow 0.2s;
+  scroll-margin-top: 90px;
 }
 
 .section h2 {
@@ -170,6 +171,7 @@ header h1 {
   box-shadow: none;
   padding: 2.5em 1.5em;
   border: none;
+  scroll-margin-top: 90px;
 }
 
 .valores h2 {
@@ -255,19 +257,27 @@ header h1 {
   }
 }
 
-/* MEJORA PARA MOBILE: valores grandes y visibles */
+/* MEJORA PARA MOBILE: valores grandes y header ajustado */
 @media (max-width: 600px) {
+  header {
+    padding: 2em 0.6em 1.3em 0.6em;
+    min-height: 180px;
+  }
   header h1 {
-    font-size: 2em;
+    font-size: 1.35em;
+    word-break: break-word;
+    line-height: 1.1em;
   }
   .subtitulo {
-    font-size: 1em;
+    font-size: 0.95em;
+    word-break: break-word;
+  }
+  .main-logo {
+    width: 56px;
+    margin-bottom: 0.7em;
   }
   nav {
     padding: 0.5em 0.5em;
-  }
-  .main-logo {
-    width: 70px;
   }
   .valores-grid {
     grid-template-columns: 1fr;
@@ -280,6 +290,9 @@ header h1 {
     width: 140px;
     height: 140px;
     padding: 10px;
+  }
+  .section, .valores {
+    scroll-margin-top: 70px;
   }
 }
 

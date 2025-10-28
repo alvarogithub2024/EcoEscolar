@@ -20,13 +20,11 @@
       <li><a href="#valores">Valores</a></li>
     </ul>
   </nav>
-
   <header>
     <img src="img/logo-ecoescolar.jpeg" alt="EcoEscolar Logo" class="main-logo">
     <h1>EcoEscolar</h1>
     <p class="subtitulo">Muebles Reciclados</p>
   </header>
-
   <section id="problematica" class="section">
     <h2>Problemática</h2>
     <p>
@@ -35,7 +33,6 @@
       Por otra parte, el 40% de colegios presentan mobiliario deteriorado, afectando la dignidad y calidad del aprendizaje de miles estudiantes.
     </p>
   </section>
-
 <section id="video" class="section">
   <h2>Video</h2>
   <div class="video-container">
@@ -45,44 +42,74 @@
     </video>
   </div>
 </section>
-
   <section id="mision" class="section">
     <h2>Misión</h2>
     <p>
       Fabricar mobiliario escolar ecológico y resistente, promoviendo la economía circular mediante el reciclaje de plásticos, con impacto en la conciencia social y cultura ambiental positivo.
     </p>
   </section>
-
   <section id="vision" class="section">
     <h2>Visión</h2>
     <p>
       Queremos liderar el cambio en el ecosistema educativo chileno a través de prácticas empresariales regenerativas, éticas y transparentes, demostrando que los negocios pueden ser una fuerza para el bien.
     </p>
   </section>
-
   <section id="valores" class="section valores">
     <h2>Valores</h2>
     <div class="valores-grid">
-      <div class="valor">
+      <div class="valor" data-valor="sostenibilidad">
         <img src="img/sostenibilidad.jpeg" alt="Sostenibilidad">
+        <div class="valor-overlay">
+          <h3>Sostenibilidad</h3>
+          <p>Haz clic para conocer más</p>
+        </div>
       </div>
-      <div class="valor">
+      <div class="valor" data-valor="compromiso">
         <img src="img/compromiso-social.jpeg" alt="Compromiso social">
+        <div class="valor-overlay">
+          <h3>Compromiso Social</h3>
+          <p>Haz clic para conocer más</p>
+        </div>
       </div>
-      <div class="valor">
+      <div class="valor" data-valor="transparencia">
         <img src="img/transparencia-etica.jpeg" alt="Transparencia y ética">
+        <div class="valor-overlay">
+          <h3>Transparencia y Ética</h3>
+          <p>Haz clic para conocer más</p>
+        </div>
       </div>
-      <div class="valor">
-        <img src="img/colaboracion-etica.jpeg" alt="Colaboración y ética">
+      <div class="valor" data-valor="colaboracion">
+        <img src="img/colaboracion-etica.jpeg" alt="Colaboración">
+        <div class="valor-overlay">
+          <h3>Colaboración</h3>
+          <p>Haz clic para conocer más</p>
+        </div>
       </div>
-      <div class="valor">
+      <div class="valor" data-valor="innovacion">
         <img src="img/innovacion-proposito.jpeg" alt="Innovación con propósito">
+        <div class="valor-overlay">
+          <h3>Innovación con Propósito</h3>
+          <p>Haz clic para conocer más</p>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- Modal para mostrar información de valores -->
+  <div id="modal-valor" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-titulo"></h2>
+      <p id="modal-descripcion"></p>
+      <button class="btn-cerrar">Cerrar</button>
+    </div>
+  </div>
+  <div id="modal-overlay" class="modal-overlay"></div>
+
   <footer>
     <p>&copy; 2025 EcoEscolar. Todos los derechos reservados.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

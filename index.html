@@ -1,75 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestros Valores</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoEscolar - Muebles Reciclados</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Nuestros Valores</h1>
-            <p class="subtitle">Descubre lo que nos mueve y guía nuestro trabajo</p>
-        </header>
-
-        <main class="valores-grid">
-            <!-- Valor 1: Sostenibilidad -->
-            <div class="valor-card" data-valor="sostenibilidad">
-                <div class="valor-icon">🌱</div>
-                <h3>Sostenibilidad</h3>
-                <p class="valor-preview">Modelo de producción responsable...</p>
-                <button class="btn-conocer-mas">Conocer más</button>
-            </div>
-
-            <!-- Valor 2: Compromiso Social -->
-            <div class="valor-card" data-valor="compromiso">
-                <div class="valor-icon">🤝</div>
-                <h3>Compromiso Social</h3>
-                <p class="valor-preview">Generamos impacto en comunidades...</p>
-                <button class="btn-conocer-mas">Conocer más</button>
-            </div>
-
-            <!-- Valor 3: Innovación con Propósito -->
-            <div class="valor-card" data-valor="innovacion">
-                <div class="valor-icon">💡</div>
-                <h3>Innovación con Propósito</h3>
-                <p class="valor-preview">Tecnología accesible y procesos creativos...</p>
-                <button class="btn-conocer-mas">Conocer más</button>
-            </div>
-
-            <!-- Valor 4: Transparencia y Ética -->
-            <div class="valor-card" data-valor="transparencia">
-                <div class="valor-icon">🔍</div>
-                <h3>Transparencia y Ética</h3>
-                <p class="valor-preview">Operamos con responsabilidad y claridad...</p>
-                <button class="btn-conocer-mas">Conocer más</button>
-            </div>
-
-            <!-- Valor 5: Colaboración -->
-            <div class="valor-card" data-valor="colaboracion">
-                <div class="valor-icon">👥</div>
-                <h3>Colaboración</h3>
-                <p class="valor-preview">Valoramos el trabajo en equipo...</p>
-                <button class="btn-conocer-mas">Conocer más</button>
-            </div>
-        </main>
-
-        <!-- Modal para mostrar información completa -->
-        <div id="modal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <div class="modal-icon"></div>
-                <h2 id="modal-title"></h2>
-                <p id="modal-description"></p>
-                <button class="btn-cerrar">Cerrar</button>
-            </div>
-        </div>
-
-        <!-- Overlay para el modal -->
-        <div id="modal-overlay" class="modal-overlay"></div>
+  <nav>
+    <div class="logo">
+      <img src="img/logo-ecoescolar.jpeg" alt="EcoEscolar Logo">
+      <span>EcoEscolar</span>
     </div>
+    <ul>
+      <li><a href="#problematica">Problemática</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#mision">Misión</a></li>
+      <li><a href="#vision">Visión</a></li>
+      <li><a href="#valores">Valores</a></li>
+    </ul>
+  </nav>
 
-    <script src="script.js"></script>
+  <header>
+    <img src="img/logo-ecoescolar.jpeg" alt="EcoEscolar Logo" class="main-logo">
+    <h1>EcoEscolar</h1>
+    <p class="subtitulo">Muebles Reciclados</p>
+  </header>
+
+  <section id="problematica" class="section">
+    <h2>Problemática</h2>
+    <p>
+      En Chile se genera 1,375 millones de toneladas de residuos plástico al año.<br>
+      Solamente alrededor del 8% es reciclado.<br>
+      Por otra parte, el 40% de colegios presentan mobiliario deteriorado, afectando la dignidad y calidad del aprendizaje de miles estudiantes.
+    </p>
+  </section>
+
+<section id="video" class="section">
+  <h2>Video</h2>
+  <div class="video-container">
+    <video width="560" controls>
+        <source src="video-ecoescolar.mp4" type="video/mp4">
+      Tu navegador no soporta el elemento de video.
+    </video>
+  </div>
+</section>
+
+  <section id="mision" class="section">
+    <h2>Misión</h2>
+    <p>
+      Fabricar mobiliario escolar ecológico y resistente, promoviendo la economía circular mediante el reciclaje de plásticos, con impacto en la conciencia social y cultura ambiental positivo.
+    </p>
+  </section>
+
+  <section id="vision" class="section">
+    <h2>Visión</h2>
+    <p>
+      Queremos liderar el cambio en el ecosistema educativo chileno a través de prácticas empresariales regenerativas, éticas y transparentes, demostrando que los negocios pueden ser una fuerza para el bien.
+    </p>
+  </section>
+
+  <section id="valores" class="section valores">
+    <h2>Valores</h2>
+    <div class="valores-grid">
+      <div class="valor">
+        <img src="img/sostenibilidad.jpeg" alt="Sostenibilidad">
+      </div>
+      <div class="valor">
+        <img src="img/compromiso-social.jpeg" alt="Compromiso social">
+      </div>
+      <div class="valor">
+        <img src="img/transparencia-etica.jpeg" alt="Transparencia y ética">
+      </div>
+      <div class="valor">
+        <img src="img/colaboracion-etica.jpeg" alt="Colaboración y ética">
+      </div>
+      <div class="valor">
+        <img src="img/innovacion-proposito.jpeg" alt="Innovación con propósito">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EcoEscolar. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>

@@ -13,13 +13,13 @@ body {
 
 /* Navegación */
 nav {
-    background-color: #1a5f3f;
+    background-color: #2d5f2e;
     padding: 1rem 2rem;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav .logo {
@@ -58,12 +58,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4ade80;
+    color: #90ee90;
 }
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+    background: linear-gradient(135deg, #2d5f2e 0%, #4a8b4d 100%);
     color: white;
     text-align: center;
     padding: 150px 20px 80px;
@@ -96,7 +96,7 @@ header .subtitulo {
 }
 
 .section h2 {
-    color: #0f766e;
+    color: #2d5f2e;
     font-size: 2.5rem;
     margin-bottom: 30px;
     text-align: center;
@@ -114,7 +114,7 @@ header .subtitulo {
 
 /* Sección de problemática */
 #problematica {
-    background-color: #f0fdfa;
+    background-color: #f9f9f9;
 }
 
 #problematica p {
@@ -148,13 +148,13 @@ header .subtitulo {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .productos-imagenes img:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
 
 .productos-video {
@@ -197,7 +197,7 @@ header .subtitulo {
     height: 350px;
     object-fit: contain;
     display: block;
-    background-color: #f0fdf4;
+    background-color: #f5f5f5;
 }
 
 .valor-overlay {
@@ -205,7 +205,7 @@ header .subtitulo {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to top, rgba(15, 118, 110, 0.95), transparent);
+    background: linear-gradient(to top, rgba(45, 95, 46, 0.95), transparent);
     color: white;
     padding: 20px;
     transform: translateY(0);
@@ -252,7 +252,7 @@ header .subtitulo {
 }
 
 .modal-content h2 {
-    color: #0f766e;
+    color: #2d5f2e;
     margin-bottom: 20px;
     text-align: left;
 }
@@ -279,7 +279,7 @@ header .subtitulo {
 }
 
 .btn-cerrar {
-    background-color: #0f766e;
+    background-color: #2d5f2e;
     color: white;
     border: none;
     padding: 12px 30px;
@@ -291,7 +291,7 @@ header .subtitulo {
 }
 
 .btn-cerrar:hover {
-    background-color: #0d9488;
+    background-color: #1f4320;
 }
 
 .modal-overlay {
@@ -312,7 +312,7 @@ header .subtitulo {
 
 /* Footer */
 footer {
-    background-color: #0f766e;
+    background-color: #2d5f2e;
     color: white;
     text-align: center;
     padding: 30px 20px;
